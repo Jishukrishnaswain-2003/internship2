@@ -97,4 +97,10 @@
     display: flex;
     justify-content: end;
   }
+
   
+  @media (max-width:768px) {
+    .filter-sidebar{
+      display: none;
+    }
+  }

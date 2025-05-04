@@ -39,4 +39,9 @@
     cursor: pointer;
     text-decoration: underline;
   }
-  
+/*   
+  @media (min-width:320px) {
+    .filter-dropdown{
+      display: none;
+    }
+  } */
