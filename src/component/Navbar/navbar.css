@@ -108,7 +108,9 @@
   border-radius: 20px;
   color: white;
 }
-
+.fiuser{
+  cursor: pointer;
+}
 .signup{
   color: rgb(15, 156, 244);
 }
