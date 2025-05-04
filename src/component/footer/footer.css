@@ -1,0 +1,167 @@
+.Footer-block {
+    background-color: #000;
+    color: white;
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 2rem;
+  }
+  
+  .footer-heading {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .footer-top-content {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  
+  .subscriber-content {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 0.5rem;
+  }
+  
+  .subscribe {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .usd-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .footer-bottom {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .footer-section {
+    width: 100%;
+  }
+  
+  .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .footer-dropdown {
+    margin-top: 0.5rem;
+  }
+  
+  .footer-heading-content {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .payments-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    align-items: center;
+  }
+  
+  .payment-img {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .copy-right {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+  
+  .social-icon {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .social-icons-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+
+  /* Tablet and Desktop styles */
+  @media (min-width: 768px) {
+    .footer-top {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .footer-bottom {
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+    .footer-section {
+      width: 22%;
+    }
+  
+    .footer-dropdown {
+      display: block !important;
+    }
+  
+    .dropdown-toggle {
+      cursor: default;
+    }
+  
+    .desktop-note {
+      display: block;
+    }
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 767px) {
+    .desktop-note {
+      display: none;
+    }
+  }
+
+  @media (min-width:320px) and (max-width:374px) {
+    .input {
+      flex: 1;
+      width: 30px;
+    }  
+    .subscribe {
+      color: white;
+      padding-top: 10px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    
+  }
+  

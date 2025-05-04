@@ -1,0 +1,146 @@
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid #e5e7eb;
+  font-family: sans-serif;
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-logo {
+  margin: 0;
+}
+
+.logo-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.navbar-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 20px;
+}
+
+.navbar-lang {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Mobile Slide Menu */
+.navbar-slide-menu {
+  width: 100%;
+  background-color: #fff;
+  padding: 16px 24px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1001;
+}
+
+.close-icon {
+  align-self: flex-end;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.slide-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slide-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.slide-links a:hover {
+  color: gray;
+}
+
+.signin{
+  width: 30%;
+  height: 30px;
+  background-color: rgb(15, 156, 244);
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.signup{
+  color: rgb(15, 156, 244);
+}
+
+/* Responsive */
+@media (max-width: 819px) {
+  .fiuser,
+  .navbar-lang {
+    display: none;
+  }
+
+  .navbar-top {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .menu {
+    display: block;
+    margin-bottom: 6px;
+    margin-right: 4px;
+  }
+
+  .logo-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .navbar-title {
+    font-size: 18px;
+  }
+
+  .navbar-icons {
+    display: none;
+  }
+}

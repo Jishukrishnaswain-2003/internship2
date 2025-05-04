@@ -1,0 +1,42 @@
+.filter-dropdown {
+    margin-bottom: 16px;
+  }
+  
+  .dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .dropdown-label {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .dropdown-options {
+    padding-left: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkbox-option {
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #333;
+  }
+  
+  .unselect {
+    font-size: 12px;
+    color: #9a9a9a;
+    margin-bottom: 6px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

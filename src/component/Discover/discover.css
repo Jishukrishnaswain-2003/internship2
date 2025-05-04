@@ -1,0 +1,195 @@
+.discover {
+    height: 30vh;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 20px;
+}
+
+.discover>.h1 {
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.discover>ul {
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:373px) {
+    .discover>ul {
+        display: flex;
+        gap: 16px;
+        font-size: 13px;
+        list-style: none;
+        margin-right: 200px;
+        margin-bottom: 10px;
+    }
+    .discover>ul>.li {
+        border-right: 2px solid lightgray;
+        padding-right: 12px;
+    }
+
+    .discover {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .discover>.h1 {
+        font-size: 18px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .dp1,
+    .dp2 {
+        font-size: 13px;
+        text-align: center;
+        margin: 0;
+        padding: 4px 10px;
+    }
+}
+
+@media (min-width:375px) and (max-width:394px) {
+    .discover>ul {
+        display: flex;
+        gap: 16px;
+        font-size: 14px;
+        list-style: none;
+        margin-right: 250px;
+        margin-bottom: 10px;
+    }
+    .discover>ul>.li{
+        border-right: 2px solid lightgray;
+        padding-right: 15px;
+    }
+
+    .discover {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .discover>.h1 {
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .dp1,
+    .dp2 {
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+        padding: 4px 12px;
+    }
+}
+
+@media (min-width:393px) and (max-width:400px) {
+    .discover>ul {
+        display: flex;
+        gap: 16px;
+        font-size: 14px;
+        list-style: none;
+        margin-right: 250px;
+        margin-bottom: 10px;
+    }
+    .discover>ul>.li{
+        border-right: 2px solid lightgray;
+        padding-right: 15px;
+    }
+
+    .discover {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .discover>.h1 {
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .dp1,
+    .dp2 {
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+        padding: 4px 12px;
+    }
+}
+
+
+@media (min-width:401px) and (max-width:430px) {
+    .discover>ul {
+        display: flex;
+        gap: 16px;
+        font-size: 14px;
+        list-style: none;
+        margin-right: 280px;
+        margin-bottom: 10px;
+    }
+    .discover>ul>.li{
+        border-right: 2px solid lightgray;
+        padding-right: 15px;
+    }
+
+    .discover {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .discover>.h1 {
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .dp1,
+    .dp2 {
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+        padding: 4px 12px;
+    }
+}
+
+@media (min-width:431px) and (max-width:480px) {
+    .discover>ul {
+        display: flex;
+        gap: 16px;
+        font-size: 14px;
+        list-style: none;
+        margin-right: 310px;
+        margin-bottom: 10px;
+    }
+    .discover>ul>.li{
+        border-right: 2px solid lightgray;
+        padding-right: 15px;
+    }
+
+    .discover {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .discover>.h1 {
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .dp1,
+    .dp2 {
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+        padding: 4px 12px;
+    }
+}
+
+
+
