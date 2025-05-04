@@ -9,7 +9,7 @@ import {
 } from "react-icons/fi";
 import { FaChevronDown } from "react-icons/fa";
 import logo from "../../assets/Logo.png";
-import "./Navbar.css";
+import "./navbar.css";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
