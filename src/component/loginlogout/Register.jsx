@@ -28,6 +28,7 @@ const Register = () => {
     navigate('/login')
   }
 
+    
   return (
     <div className="register-container">
       <form className="register-box" onSubmit={handleRegister}>
@@ -56,7 +57,7 @@ const Register = () => {
           value={formData.password}
           onChange={handleChange}
         />
-        <button type="submit">Register</button>
+        <button type="submit" onClick={handleclick}>Register</button>
         <p className="account">Already have an account? <span className="signup" onClick={handleclick}>Sign in</span></p>
       </form>
     </div>

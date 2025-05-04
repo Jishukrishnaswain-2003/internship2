@@ -17,6 +17,10 @@ const Log = () => {
     navigate('/register')
   }
 
+  const handlelog = () =>{
+    navigate("/")
+  }
+
 
   return (
     <div className="login-container">
@@ -36,7 +40,7 @@ const Log = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit" >Login</button>
+        <button type="submit" onClick={handlelog}>Login</button>
         <p className="account">Don't have an account? <span className="signup" onClick={handleclick}>Sign up</span></p>
       </form>
     </div>
